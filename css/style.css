@@ -40,6 +40,9 @@
 .debug .main-row {
     height: 600px;
 }
+.debug .last-row {
+    height: 1000px;
+}
 /* ----------
     HEADER 
 ---------- */
@@ -67,4 +70,11 @@
     width: 40%;
     background-color: #ffc0cb;
 }
-
+.last-row {
+    display: flex;
+    padding: 50px 0;
+}
+.last-section {
+    width: 100%;
+    background-color: #228b22;
+}
