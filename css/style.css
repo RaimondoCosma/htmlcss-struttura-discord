@@ -34,16 +34,37 @@
     width: 900px;
     background-color: #ee82ee;
 }
+.debug section:nth-child(2n) {
+    background-color: #d3d3d3;
+}
+.debug .main-row {
+    height: 600px;
+}
 /* ----------
     HEADER 
 ---------- */
-
 .header-row {
     display: flex;
     justify-content: space-between;
     padding: 8px 8px;
 }
-
 .header-bottom {
     padding: 50px 0;
 }
+
+/* ----------
+    MAIN 
+---------- */
+.main-row {
+    display: flex;
+    padding: 50px 0;
+}
+.col-image {
+    width: 60%;
+    background-color: #1e90ff;
+}
+.col-text {
+    width: 40%;
+    background-color: #ffc0cb;
+}
+
