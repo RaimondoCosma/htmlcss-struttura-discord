@@ -24,7 +24,11 @@
 }
 .debug .header-row {
     background-color: #daa520;
-    border: dotted 2px black;
+    /* border: dotted 2px black; */
+}
+.debug .col-link {
+    border-left: 2px dotted black;
+    border-right: 2px dotted black;
 }
 .debug .header-bottom {
     height: 500px;
@@ -85,8 +89,20 @@
 ---------- */
 .header-row {
     display: flex;
-    justify-content: space-between;
-    padding: 8px 8px;
+    /* justify-content: space-between; */
+    padding: 3px 5px;
+    border: 2px dotted black;
+}
+.col-logo {
+    width: 15%;
+}
+.col-link {
+    width: 70%;
+    text-align: center;
+}
+.col-login {
+    width: 15%;
+    text-align: right;
 }
 .header-bottom {
     padding: 50px 0;
